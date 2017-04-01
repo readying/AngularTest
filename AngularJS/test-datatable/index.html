@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>datatable第二篇【从对象中获取数据】</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/jquery/datatables/jquery.dataTables.min.css" rel="stylesheet">
+    <script src="/vendor/jquery/jquery-3.0.0.min.js"></script>
+    <script src="/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="/vendor/jquery/datatables/jquery.dataTables.min.js"></script>
+    <style>
+        .table-hover tbody tr:hover{
+            background-color: #1ab394;
+        }
+    </style>
+</head>
+<body>
+<p>你可以知道通过对象获得特定的数据非常简单，你只需要使用一个属性的名字，而不是记住这个数组的索引，比如data.name</p>
+<p>使用对象前，你需要明确告诉datatables那个属性对应那一列， 通过使用columns.data 或者 columns.render 选项完成</p>
+<table class="table table-bordered table-striped table-hover table-responsive" id="dTable" style="width: 100%">
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>职位</th>
+        <th>工资</th>
+        <th>办公室</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+</body>
+<script>
+    var o=[
+        {
+            "name":       "Tiger Nixon",
+            "position":   "System Architect",
+            "salary":     "$3,120",
+            "start_date": "2011/04/25",
+            "office":     "Edinburgh",
+            "extn":       "5421"
+        },
+        {
+            "name":       "Garrett Winters",
+            "position":   "Director",
+            "salary":     "$5,300",
+            "start_date": "2011/07/25",
+            "office":     "Edinburgh",
+            "extn":       "8422"
+        },
+        {
+            "name":       "Winters",
+            "position":   "木工",
+            "salary":     "$5,300",
+            "start_date": "2011/07/25",
+            "office":     "Edinburgh",
+            "extn":       "8422"
+        },
+        {
+            "name":       "Garret",
+            "position":   "泥浆工",
+            "salary":     "$5,300",
+            "start_date": "2011/07/25",
+            "office":     "Edinburgh",
+            "extn":       "8422"
+        },
+        {
+            "name":       "Garrett Winters",
+            "position":   "农民",
+            "salary":     "$5,300",
+            "start_date": "2011/07/25",
+            "office":     "Edinburgh",
+            "extn":       "8422"
+        }
+    ];
+    $("#dTable").DataTable({//初始化datatable
+        data:o,
+        columns:[//每一列对应的数据
+            {data:'name'},
+            {data:'position'},
+            {data:'salary'},
+            {data:'office'}
+        ]
+    });
+</script>
+</html>

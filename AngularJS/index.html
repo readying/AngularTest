@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <script src="js/angular.min.js"></script>
+    <script src="vendor/angular/angular-ui-router/angular-ui-router.js"></script>
+    <script>
+
+        angular.module('app', ['ui.router'])
+            .config(['$stateProvider', function ($stateProvider) {
+
+                $stateProvider
+                    .state('home', {
+                        url: '/',
+                        template: '<h1>This is an inline template</h1>'
+                    });
+            }])
+    </script>
+</head>
+<body>
+
+<a href="#/">School Buddey</a>
+<a href="#/home">Schools</a>
+<a href="#/activities">Activities</a>
+
+</body>
+</html>

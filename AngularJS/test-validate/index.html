@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/angular.min.js"></script>
+    <script>
+        angular.module('App',[])
+            .controller('ctrl', function ($scope) {
+
+                $scope.amount = 100;
+
+                $scope.items = ['a', 'b', 'c'];
+
+            })
+//            .filter('filter1', function () {
+//                return function (item, num) {
+//
+//                    for(var i = 0; i<num; i++){
+//                        item = item + '!';
+//                    }
+//                    return item ;
+//                }
+//            })
+            .filter('filter3', function () {
+                return function (items) {
+                    angular.forEach(items, function (item) {
+                        item = item + '!';
+                    });
+                    return items;
+                }
+            })
+
+    </script>
+</head>
+<body ng-controller="ctrl">
+
+    <div>{{amount | currency:"USD$"}}</div>
+    <!--<div>{{"aaa" | filter1:2}}</div>-->
+    <div>{{'aaa' | filter3}}</div>
+
+    <ul>
+        <li ng-repeat="item in items | filter3">{{item}}</li>
+    </ul>
+    <form name="form" novalidate>
+        <label name="email">Your email</label>
+        <input type="email" name="email" ng-model="email" placeholder="Email Address"/>
+
+
+        <label> Name</label>
+        <input type="text" ng-minlength="5" required />
+
+        <button class="btn btn-primary">Submit</button>
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

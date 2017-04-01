@@ -1,0 +1,44 @@
+<html >
+
+<head>
+    <meta charset="utf-8">
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/angular-route.js"></script>
+    <script>
+        angular.module('ngRouteExample', ['ngRoute'])
+            .controller('MainController', function ($scope) {
+            })
+
+            .controller('UserListCtrl',function ($scope) {
+
+            })
+            .controller('UserCtrl',function ($scope, $routeParams) {
+                $scope.params = $routeParams;
+            })
+            .config(function ($routeProvider, $locationProvider) {
+                $routeProvider
+                    .when('/users',{
+                        templateUrl:'user-list.html',
+                        controller:'UserListCtrl'
+                    })
+                    .when('/users/username',{
+                        templateUrl:'user.html',
+                        controller:'UserCtrl'
+                    });
+
+                // configure html5
+                $locationProvider.html5Mode(true);
+            })
+    </script>
+</head>
+
+<body ng-app="ngRouteExample">
+        Choose:
+        <a href="#/users">User List</a>
+        <a href="#/users/username">User:alice</a>
+
+
+    <div ng-view></div>
+</body>
+
+</html>
