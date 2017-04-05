@@ -1,0 +1,24 @@
+
+
+ <!--总结下来就是, ng-if, ng-switch, ng-include等会动态创建一块界面的东西，都是自带以及作用域-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/angular.min.js"></script>
+    <script>
+         angular.module('myApp',[])
+             .controller('myCtrl',function ($scope) {
+                 $scope.name = "john Doe";
+             })
+    </script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        name : <input ng-model="name">
+        <h2>your input is: {{name}}</h2>
+    </div>
+</body>
+</html>
