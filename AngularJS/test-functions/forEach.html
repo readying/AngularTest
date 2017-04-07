@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html ng-app="elementExample">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="../js/angular.min.js"></script>
+    <script src="../vendor/jquery/jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+<div id="test">博弈网络科技</div>
+
+<div>
+    angular.forEach(obj, iterator, context)
+    <input type="button" onclick="button1()" value="比较值"/>
+</div>
+<hr>
+<div>
+    angular.forEach(obj, iterator)
+    <input type="button" onclick="button2()" value="比较值"/>
+</div>
+<br>
+
+<script>
+
+    function button1(){
+        var values = {name: 'misko', gender: 'male'};
+        var values1 = {};
+        var values2 = [
+            {name:"zhangsan", age:12},
+            {name:"lisi", age:34},
+            {name:"wangwu", age:23}
+        ];
+        var log = [];
+        angular.forEach(values2, function(value, key) {
+//            this.push(key + ': ' + value);
+            alert(key + ':' + value.name);
+            values1.age = value.age;
+
+            this.push(key + '_' + value.name);
+//
+        }, log);
+        alert(log);
+        alert(values1.age)
+//       alert(values1.lisi);
+//
+//       angular.forEach(log, function (value, key) {
+//           alert(key + '_' + value.name + ":" + value.age);
+//       }, values1);
+
+//        alert(values1);
+
+    }
+
+    function button2(){
+        var values = {name: 'misko', gender: 'male'};
+        var values2 = [
+            {name:"zhangsan", age:12},
+            {name:"lisi", age:34},
+            {name:"wangwu", age:23}];
+        var log = [];
+        angular.forEach(values2, function(value, key) {
+//            log.push(key + ': ' + value.name);
+            log[key] = value.name;
+        });
+        alert(log);
+
+        var k = jQuery.inArray("zhangsan",log);
+        var t = jQuery.inArray("ch", log);
+
+    }
+
+</script>
+
+</body>
+</html>
