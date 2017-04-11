@@ -1,0 +1,10 @@
+[{"category":"Watersports", "description":"A boat for one person","name":"Kayak", "price":275, "id":"05af709dfs"},
+{"category":"Watersports", "description":"Protective and fashionable","name":"Lifejacket", "price":48.95, "id":"ererer"},
+{"category":"Soccer", "description":"FIFA-approved size and weight","name":"Soccer Ball", "price":19.5, "id":"ererererer"},
+{"category":"Soccer", "description":"Give your playing field a professional touch","name":"Corner Flags", "price":34.95, "id":"sdgfsdf"},
+{"category":"Soccer", "description":"Flat-packed 35,000-seat stadium","name":"Stadium", "price":795000, "id":"sdf"},
+{"category":"Chess", "description":"Imporve your brain efficiency by 75%","name":"Thinking Cap", "price":16, "id":"erer"},
+{"category":"Chess", "description":"Secretly give your opponetn a disadvantage","name":"Unstedy Chair", "price":29.95, "id":"05af709dfs"},
+{"category":"Chess", "description":"A fun game fo rthe family","name":"Human Chess Board", "price":75, "id":"ereerrr"},
+{"category":"Chess", "description":"Gold-palated, diamond-studded King","name":"Bling-Bling king", "price":1200, "id":"ersdf"}
+]
