@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/angular-messages.js"></script>
+    <script src="app.js"></script>
+</head>
+<body class="container" ng-app="app" ng-controller="MainCtrl as main">
+
+<form name="userForm">
+
+    <div class="form-group" ng-class="{'has-error':userForm.name.$touched && userForm.name.$invalid}">
+        <label>用户名</label>
+        <input type="text" name="username" class="form-control"
+               ng-model="main.name"
+               data-ng-minlength="5"
+               ng-maxlength="10" required/>
+
+        <div style="color:red" class="error" ng-show="userForm.username.$dirty && userForm.username.$invalid ">
+            <p ng-show="userForm.username.$error.minlength">Username is too short.</p>
+            <p ng-show="userForm.username.$error.maxlength">Username is too long.</p>
+            <p ng-show="userForm.username.$error.required">Your username is required.</p>
+        </div>
+
+
+    </div>
+
+    <div class="form-group">
+        <button type="submit" data-ng-disabled="userForm.$invalid" class="btn btn-danger">提交</button>
+    </div>
+
+    <label>userForm.name.$error</label> <pre>{{userForm.name.$error}}</pre>
+    <label>userForm.name.$dirty</label> <pre>{{userForm.name.$dirty}}</pre>
+    <label>userForm.name.$invalid</label> <pre>{{userForm.name.$invalid}}</pre>
+</form>
+
+
+</body>
+</html>

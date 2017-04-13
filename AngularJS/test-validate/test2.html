@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <script src="../js/angular.min.js"></script>
+
+
+    <script>
+        angular.module('App', [])
+            .controller('ctrl', function ($scope) {
+
+                $scope.amount = 100;
+
+                $scope.items = ['a', 'b', 'c'];
+
+            });
+    </script>
+</head>
+<body ng-controller="ctrl">
+
+<form name="testForm">
+    <label name="email">Your email</label>
+    <input type="email" name="email" ng-model="email" />
+
+    <label> Name</label>
+    <input type="text"
+           name-check minlength="2" maxlength="5" required/>
+
+    <label> regexp</label>
+    <input type="text" ng-pattern="[a-zA-Z]" required/>
+
+    <button class="btn btn-primary" ng-disabled="testForm.$invalid">Submit</button>
+</form>
+
+<form name="shippingForm" >
+
+    <div class="form-group">
+        <label>You</label>
+        <input type="text" name="you"  required/>
+    </div>
+
+    <div class="text-center">
+        <button ng-disabled="shippingForm.$invalid"
+                class="btn btn-primary">OK</button>
+    </div>
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

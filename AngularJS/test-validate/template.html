@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/angular-messages.js"></script>
+
+    <script>
+        angular.module('App', ['ngMessages'])
+            .controller('formCtrl', function ($scope) {
+                $scope.formData = {};
+            })
+
+    </script>
+</head>
+<body ng-controller="formCtrl">
+
+<div class="container" style="margin-top: 20px;">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            表单验证示例
+        </div>
+
+        <div class="panel-body">
+            <form class="form-horizontal" name="myForm">
+
+                <div class="form-group"
+                     ng-class="{'has-error': myForm.myName.$touched && myForm.myName.$invalid}">
+                    <label class="col-xs-2 control-table">Name</label>
+                    <div class="col-xs-6">
+                        <input type="text" class="form-control" name="myName" ng-model="formData.username"
+                               placeholder="2-10字符"
+                               minlength="2" maxlength="10" required/>
+                    </div>
+                    <div class="col-xs-4 form-control-static text-danger" data-ng-messages="myForm.myName.$error"
+                         ng-show="myForm.myName.$touched">
+                    </div>
+                </div>
+
+                <div class="form-group" ng-class="{'has-error': myForm.myDesc.$touched && myForm.myDesc.$invalid}">
+                    <label class="col-xs-2 control-label">desc</label>
+                    <div class="col-xs-6">
+                        <input type="text" class="form-control" name="myDesc" ng-model="formData.desc"
+                               placeholder="1-20个英文字母"
+                               data-ng-pattern="/^[a-zA-Z]{1,20}$/">
+                    </div>
+                    <div class="col-xs-4 form-control-static text-danger" ng-messages="myForm.myDesc.$error"
+                         ng-show="myForm.myDesc.$touched">
+                        <div ng-messages="pattern">描述格式不对</div>
+                    </div>
+                </div>
+
+                <div class="form-group" ng-class="{'has-error': myForm.myDesc.$touched && myForm.myDesc.$invalid}">
+                    <label class="col-xs-2 control-label">test</label>
+                    <div class="col-xs-6">
+                        <input type="text" class="form-control" name="myTest" ng-model="formData.test"
+                               placeholder=" 原始校验方法"
+                               data-ng-minlength="3" data-ng-maxlength="9" required/>
+                        <p ng-show="myForm.myTest.$error.minlength">Name is too short.</p>
+                        <p ng-show="myForm.myTest.$error.maxlength">Name is too long.</p>
+                        <p ng-show="myForm.myTest.$error.required">Name is required.</p>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div class="col-xs-6 col-xs-offset-2">
+                        <button type="submit" class="btn btn-primary"
+                                data-ng-disabled="myForm.$invalid">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
