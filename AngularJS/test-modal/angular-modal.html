@@ -15,8 +15,9 @@
         </div>
         <div class="modal-body">
             <ul>
-                <li ng-repeat="item in items"><a
-                        ng-click="selected.item = item">{{ item }}</a></li>
+                <li ng-repeat="item in items">
+                    <a ng-click="selected.item = item">{{ item }}</a>
+                </li>
             </ul>
             Selected: <b>{{ selected.item }}</b>
         </div>
@@ -25,35 +26,34 @@
             <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
         </div>
     </script>
-    <button class="btn" ng-click="open()"> Open me</button>
+    <button class="btn" ng-click="open()">Open me!</button>
 </div>
 <script>
     var ModalDemo = angular.module('ModalDemo', ['ui.bootstrap']);
-    var ModalDemoCtrl = function ($scope, $modal, $log) {
+    ModalDemo.controller('ModalDemoCtrl', function ($scope, $modal, $log) {
         $scope.items = ['item1', 'item2', 'item3'];
         $scope.open = function () {
             var modalInstance = $modal.open({
                 templateUrl: 'myModalContent.html',
-                controller: ModalInstanceCtrl,
+                controller: 'ModalInstanceCtrl',
                 resolve: {
                     items: function () {
                         return $scope.items;
                     }
                 }
             });
-            modalInstance.opened.then(function () {// 模态窗口打开之后执行的函数
+            modalInstance.opened.then(function(){//模态窗口打开之后执行的函数
                 console.log('modal is opened');
             });
             modalInstance.result.then(function (result) {
                 console.log(result);
             }, function (reason) {
-                console.log(reason);// 点击空白区域，总会输出backdrop
-                // click，点击取消，则会暑促cancel
+                console.log(reason);//点击空白区域，总会输出backdrop click，点击取消，则会暑促cancel
                 $log.info('Modal dismissed at: ' + new Date());
             });
         };
-    };
-    var ModalInstanceCtrl = function ($scope, $modalInstance, items) {
+    });
+    ModalDemo.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
         $scope.items = items;
         $scope.selected = {
             item: $scope.items[0]
@@ -64,7 +64,7 @@
         $scope.cancel = function () {
             $modalInstance.dismiss('cancel');
         };
-    };
+    });
 </script>
 </body>
 </html>

@@ -22,7 +22,9 @@
         <input type="text" name="username" class="form-control"
                ng-model="main.name"
                data-ng-minlength="5"
-               ng-maxlength="10" required/>
+               data-ng-maxlength="10"
+
+               required/>
 
         <div style="color:red" class="error" ng-show="userForm.username.$dirty && userForm.username.$invalid ">
             <p ng-show="userForm.username.$error.minlength">Username is too short.</p>

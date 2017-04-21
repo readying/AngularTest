@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="039370b2-ece5-4bca-a712-d2487f00f7c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-validate/test2.html" />
+    <list default="true" id="039370b2-ece5-4bca-a712-d2487f00f7c1" name="Default" comment="增加modal  controller之间的通信">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular-touch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular-touch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular-touch.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal/index2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal2/confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal3/angular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal3/angular-touch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal3/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal3/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal3/confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal3/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-modal3/ui-bootstrap-tpls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-scope-communicate/services.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-uiRouter/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-uiRouter/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-uiRouter/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-uiRouter/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-uiRouter/ngRepeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-uiRouter2/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-uiRouter2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/angular/angular-bootstrap/ui-bootstrap-tpls-2.5.0.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-modal/angular-modal.html" afterPath="$PROJECT_DIR$/test-modal/angular-modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-modal/myModalContent.html" afterPath="$PROJECT_DIR$/test-modal/myModalContent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-scope-communicate/test2.html" afterPath="$PROJECT_DIR$/test-scope-communicate/test2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-validate3/index.html" afterPath="$PROJECT_DIR$/test-validate3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../book-8/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../book-8/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,23 +49,109 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AngularJS" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-validate/index.html">
+        <entry file="file://$PROJECT_DIR$/test-modal2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="768">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-validate/test2.html">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-modal2/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="1429">
+              <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-scope-communicate/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-modal3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-scope-communicate/test3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confirm.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-modal2/confirm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-scope-communicate/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-modal/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+              <folding>
+                <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-scope-communicate/test2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-modal2/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -51,27 +167,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$ctrl</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$scope</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="XiaoChen &lt;1468059916@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/person.html" />
-        <option value="$PROJECT_DIR$/js/namesController.js" />
-        <option value="$PROJECT_DIR$/js/ServicesLocation.js" />
-        <option value="$PROJECT_DIR$/js/personController.js" />
-        <option value="$PROJECT_DIR$/listStatic.html" />
-        <option value="$PROJECT_DIR$/js/test.html" />
-        <option value="$PROJECT_DIR$/js/service1.js" />
-        <option value="$PROJECT_DIR$/1bole.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/serviceGithub.js" />
-        <option value="D:/Program Files/angularjs/test.html" />
-        <option value="$PROJECT_DIR$/mvc1.html" />
-        <option value="$PROJECT_DIR$/table.html" />
-        <option value="$PROJECT_DIR$/service1.html" />
-        <option value="$PROJECT_DIR$/routeProvider.html" />
         <option value="$PROJECT_DIR$/person.html" />
         <option value="$PROJECT_DIR$/namesCountry.html" />
         <option value="$PROJECT_DIR$/serviceUrlLocation.html" />
@@ -84,8 +198,6 @@
         <option value="$PROJECT_DIR$/test-router/user.html" />
         <option value="$PROJECT_DIR$/../AngularRouterUi/test-router/index.html" />
         <option value="$PROJECT_DIR$/../AngularRouterUi/ui-router/index.html" />
-        <option value="$PROJECT_DIR$/test-modal/angular-modal.html" />
-        <option value="$PROJECT_DIR$/test-modal/myModalContent.html" />
         <option value="$PROJECT_DIR$/test-scope-communicate.html" />
         <option value="$PROJECT_DIR$/test-scope-communicate/index.html" />
         <option value="$PROJECT_DIR$/test-ngModel-twoWay/test2.html" />
@@ -100,11 +212,47 @@
         <option value="$PROJECT_DIR$/test-form/checkbox-ng-repeat.html" />
         <option value="$PROJECT_DIR$/test-validate/index.html" />
         <option value="$PROJECT_DIR$/test-validate/test2.html" />
+        <option value="$PROJECT_DIR$/test-validate/error.html" />
+        <option value="$PROJECT_DIR$/test-bootstrap/has-error.html" />
+        <option value="$PROJECT_DIR$/test-validate2/app.js" />
+        <option value="$PROJECT_DIR$/test-validate/template.html" />
+        <option value="$PROJECT_DIR$/test-validate2/emailmessages.html" />
+        <option value="$PROJECT_DIR$/test-validate2/index.html" />
+        <option value="$PROJECT_DIR$/test-validate3/index.html" />
+        <option value="$PROJECT_DIR$/test-uiRouter/app.js" />
+        <option value="$PROJECT_DIR$/test-uiRouter/list.html" />
+        <option value="$PROJECT_DIR$/test-uiRouter/ngRepeat.html" />
+        <option value="$PROJECT_DIR$/test-uiRouter2/index.html" />
+        <option value="$PROJECT_DIR$/test-uiRouter/index.html" />
+        <option value="$PROJECT_DIR$/test-uiRouter2/app.js" />
+        <option value="$PROJECT_DIR$/test-scope-communicate/test2.html" />
+        <option value="$PROJECT_DIR$/test-scope-communicate/services.html" />
+        <option value="$PROJECT_DIR$/test-modal/myModalContent.html" />
+        <option value="$PROJECT_DIR$/test-modal/angular-modal.html" />
+        <option value="$PROJECT_DIR$/test-modal/index2.html" />
+        <option value="$PROJECT_DIR$/test-modal2/app.js" />
+        <option value="$PROJECT_DIR$/test-modal/app.js" />
+        <option value="$PROJECT_DIR$/test-modal2/index.html" />
+        <option value="$PROJECT_DIR$/test-modal2/confirm.html" />
+        <option value="$PROJECT_DIR$/test-model3/index.html" />
+        <option value="$PROJECT_DIR$/test-modal2/index2.html" />
+        <option value="$PROJECT_DIR$/test-modal3/index.html" />
       </list>
     </option>
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -131,8 +279,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,7 +317,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test-validate" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-scope-communicate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-modal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -178,29 +412,31 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="D:/nginxWork/angularjs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/git/AngularTest/AngularJS/test-modal2/index.html" />
+    <property name="javascript.nodejs.core.library.configured.version" value="4.4.3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\AngularTest\AngularJS\js" />
       <recent name="E:\git\AngularTest\AngularJS\test-ngModel-twoWay" />
       <recent name="E:\git\AngularTest\AngularJS\test-scope-communicate" />
       <recent name="E:\git\AngularTest\AngularJS\vendor" />
       <recent name="D:\WebstormProjects\AngularTest2\test-router" />
-      <recent name="D:\WebstormProjects\AngularTest2\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\git\AngularTest\AngularJS\test-validate" />
-      <recent name="E:\git\AngularTest\AngularJS\test-functions" />
-      <recent name="E:\git\AngularTest\AngularJS\test-form" />
-      <recent name="E:\git\AngularTest\AngularJS\test-ngModel-twoWay" />
-      <recent name="E:\git\AngularTest\AngularJS\vendor\angular\i18n" />
+      <recent name="E:\git\AngularTest\AngularJS\test-model3" />
+      <recent name="E:\git\AngularTest\AngularJS\test-modal2" />
+      <recent name="E:\git\AngularTest\AngularJS\vendor\bootstrap" />
+      <recent name="E:\git\AngularTest\AngularJS\" />
+      <recent name="E:\git\AngularTest\AngularJS\test-router" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,6 +522,11 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -311,6 +552,16 @@
       <workItem from="1491535597921" duration="705000" />
       <workItem from="1491547329984" duration="1646000" />
       <workItem from="1491816229349" duration="3012000" />
+      <workItem from="1491899460342" duration="725000" />
+      <workItem from="1491954967789" duration="1592000" />
+      <workItem from="1491961762776" duration="2921000" />
+      <workItem from="1492045020732" duration="7200000" />
+      <workItem from="1492062506453" duration="14144000" />
+      <workItem from="1492128556964" duration="390000" />
+      <workItem from="1492130276632" duration="9897000" />
+      <workItem from="1492565365183" duration="2295000" />
+      <workItem from="1492675543064" duration="1891000" />
+      <workItem from="1492738266841" duration="15181000" />
     </task>
     <task id="LOCAL-00001" summary="增加模态化测试">
       <created>1491034474406</created>
@@ -333,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491550255396</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="主要增加的是表格校验">
+      <created>1492080110039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492080110039</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83042000" />
+    <option name="totallyTimeSpent" value="139278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,24 +608,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14746301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24260043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49788582" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5021142" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4960541" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49788582" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5039459" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="850" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -399,139 +657,19 @@
     <MESSAGE value="增加模态化测试" />
     <MESSAGE value="增加模态化测试/双向数据绑定" />
     <MESSAGE value="增加checkbox indexOf forEach等" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加checkbox indexOf forEach等" />
+    <MESSAGE value="主要增加的是表格校验" />
+    <MESSAGE value="增加modal  controller之间的通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加modal  controller之间的通信" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/personController.js" />
-    <entry file="file://$PROJECT_DIR$/person.html" />
-    <entry file="file://$PROJECT_DIR$/js/ServicesLocation.js" />
-    <entry file="file://$PROJECT_DIR$/serviceUrlLocation.html" />
-    <entry file="file://$PROJECT_DIR$/namesCountry.html" />
-    <entry file="file://$PROJECT_DIR$/js/namesController.js" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/index.html" />
-    <entry file="file://$PROJECT_DIR$/js/ServicesLocation.js" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/js/angular-route.js" />
-    <entry file="file://$USER_HOME$/Desktop/gg/ng-newsletter-beginner-series/index.html" />
-    <entry file="file://$PROJECT_DIR$/js/personController.js" />
-    <entry file="file://$PROJECT_DIR$/js/namesController.js" />
-    <entry file="file://D:/Program Files/angularjs/test.html" />
-    <entry file="file://$PROJECT_DIR$/js/serviceGithub.js" />
-    <entry file="file://$PROJECT_DIR$/namesCountry.html" />
-    <entry file="file://$PROJECT_DIR$/person.html" />
-    <entry file="file://$PROJECT_DIR$/mvc1.html" />
-    <entry file="file://$PROJECT_DIR$/listStatic.html" />
-    <entry file="file://$PROJECT_DIR$/service1.html" />
-    <entry file="file://$PROJECT_DIR$/js/service1.js" />
-    <entry file="file://$PROJECT_DIR$/serviceUrlLocation.html" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/js/angular.min.js" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/table.html" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/js/ExpanderSimple.js" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/index.html" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/test-router/user-list.html" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/test-router/user.html" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/routeProvider.html" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/test-router/index.html" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/angular-ui-router/angular-ui-router.js" />
-    <entry file="file://$PROJECT_DIR$/../AngularRouterUi/ui-router/index.html" />
-    <entry file="file://$PROJECT_DIR$/test-modal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/angular/angular-bootstrap/ui-bootstrap-tpls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/angular/i18n/angular-locale_zh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-modal/myModalContent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-modal/angular-modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-scope-communicate.html" />
-    <entry file="file://$PROJECT_DIR$/test-scope-communicate/test3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-scope-communicate/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-form/checkbox-ng-repeat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-functions/forEach.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-functions/indexof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-form/checkbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#pre#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-form/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,15 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-scope-communicate/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,22 +691,539 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-validate/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-validate/test2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="35" />
+        <state relative-caret-position="429">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-bootstrap/has-error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-validate/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-validate2/emailmessages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-validate2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular-messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="355" column="13" lean-forward="false" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="142" column="131" lean-forward="false" selection-start-line="142" selection-start-column="131" selection-end-line="142" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-validate3/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-validate/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-validate/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-validate3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-validate2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-uiRouter/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-uiRouter/ngRepeat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-uiRouter/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-uiRouter/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-uiRouter/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-uiRouter2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-uiRouter2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal/myModalContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/angular/angular-bootstrap/ui-bootstrap-tpls-2.5.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11352">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular-animate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular-sanitize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476150834000" expanded="true" signature="1808:2321" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="1913:2305" ph="[...]" />
+            <marker date="1476150834000" expanded="true" signature="1955:2304" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="2218:2290" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="2366:3532" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="2458:3518" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="2472:2597" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="2640:2875" ph="..." />
+            <marker date="1476150834000" expanded="false" signature="2744:2748" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="2774:2778" ph="&gt;" />
+            <marker date="1476150834000" expanded="false" signature="2783:2787" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="2791:2795" ph="&gt;" />
+            <marker date="1476150834000" expanded="true" signature="2915:3257" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="3044:3159" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="3061:3142" ph="..." />
+            <marker date="1476150834000" expanded="false" signature="3062:3066" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="3120:3124" ph="&gt;" />
+            <marker date="1476150834000" expanded="false" signature="3133:3137" ph="&gt;" />
+            <marker date="1476150834000" expanded="true" signature="3289:3502" ph="..." />
+            <marker date="1476150834000" expanded="false" signature="3381:3385" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="3406:3410" ph="&gt;" />
+            <marker date="1476150834000" expanded="false" signature="3415:3419" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="3423:3427" ph="&gt;" />
+            <marker date="1476150834000" expanded="true" signature="3660:3810" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="3890:4138" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="4205:4469" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="4509:5023" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="17100:17588" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="17202:17570" ph="[...]" />
+            <marker date="1476150834000" expanded="true" signature="17230:17569" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="17635:18660" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="17726:18659" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="17740:17838" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="17870:18123" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="17919:18019" ph="..." />
+            <marker date="1476150834000" expanded="false" signature="17939:17943" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="17977:17981" ph="&gt;" />
+            <marker date="1476150834000" expanded="false" signature="17985:17989" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="17993:17997" ph="&gt;" />
+            <marker date="1476150834000" expanded="true" signature="18035:18108" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="18155:18439" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="18202:18319" ph="..." />
+            <marker date="1476150834000" expanded="false" signature="18221:18225" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="18278:18282" ph="&gt;" />
+            <marker date="1476150834000" expanded="false" signature="18286:18290" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="18294:18298" ph="&gt;" />
+            <marker date="1476150834000" expanded="true" signature="18334:18424" ph="..." />
+            <marker date="1476150834000" expanded="true" signature="18471:18643" ph="..." />
+            <marker date="1476150834000" expanded="false" signature="18523:18527" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="18548:18552" ph="&gt;" />
+            <marker date="1476150834000" expanded="false" signature="18556:18560" ph="&lt;" />
+            <marker date="1476150834000" expanded="false" signature="18564:18568" ph="&gt;" />
+            <marker date="1476150834000" expanded="true" signature="18786:19140" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="19220:19573" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="19615:20082" ph="{...}" />
+            <marker date="1476150834000" expanded="true" signature="20147:20422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/angular/angular-bootstrap/ui-bootstrap-tpls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1490664796600" expanded="true" signature="20950:21328" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="20964:21133" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="21023:21035" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="21075:21118" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="21147:21312" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="21206:21218" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="21258:21297" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="21390:21434" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="22238:22499" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="22300:22485" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="22345:22357" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="22395:22472" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="22705:22734" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="22797:22841" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="96355:96480" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="96520:96681" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="96711:96876" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="98133:98885" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="98204:98264" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="98351:98421" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="98449:98874" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="98527:98675" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="98717:98858" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="98957:99278" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="98980:99130" ph="[...]" />
+            <marker date="1490664796600" expanded="true" signature="99167:99271" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="99199:99261" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="99620:99877" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="99632:99738" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="99750:99863" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="124798:124805" ph="×" />
+            <marker date="1490664796600" expanded="true" signature="127701:127712" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="128644:128655" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="129740:129751" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="130314:130325" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="131073:131093" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="132332:132343" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="132906:132917" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="140233:140239" ph=" " />
+            <marker date="1490664796600" expanded="true" signature="140492:140503" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="140836:140847" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="141476:141482" ph=" " />
+            <marker date="1490664796600" expanded="true" signature="142330:142345" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/tether.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10494">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal/angular-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal2/confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal3/ui-bootstrap-tpls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal3/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal3/angular-sanitize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490664796600" expanded="true" signature="1846:2359" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="1951:2343" ph="[...]" />
+            <marker date="1490664796600" expanded="true" signature="1993:2342" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="2256:2328" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="2404:3570" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="2496:3556" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="2510:2635" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="2678:2913" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="2782:2786" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="2812:2816" ph="&gt;" />
+            <marker date="1490664796600" expanded="false" signature="2821:2825" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="2829:2833" ph="&gt;" />
+            <marker date="1490664796600" expanded="true" signature="2953:3295" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="3082:3197" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="3099:3180" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="3100:3104" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="3158:3162" ph="&gt;" />
+            <marker date="1490664796600" expanded="false" signature="3171:3175" ph="&gt;" />
+            <marker date="1490664796600" expanded="true" signature="3327:3540" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="3419:3423" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="3444:3448" ph="&gt;" />
+            <marker date="1490664796600" expanded="false" signature="3453:3457" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="3461:3465" ph="&gt;" />
+            <marker date="1490664796600" expanded="true" signature="3698:3848" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="3928:4176" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="4243:4507" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="4547:5061" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="19218:19706" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="19320:19688" ph="[...]" />
+            <marker date="1490664796600" expanded="true" signature="19348:19687" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="19753:20778" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="19844:20777" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="19858:19956" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="19988:20241" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="20037:20137" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="20057:20061" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="20095:20099" ph="&gt;" />
+            <marker date="1490664796600" expanded="false" signature="20103:20107" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="20111:20115" ph="&gt;" />
+            <marker date="1490664796600" expanded="true" signature="20153:20226" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="20273:20557" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="20320:20437" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="20339:20343" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="20396:20400" ph="&gt;" />
+            <marker date="1490664796600" expanded="false" signature="20404:20408" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="20412:20416" ph="&gt;" />
+            <marker date="1490664796600" expanded="true" signature="20452:20542" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="20589:20761" ph="..." />
+            <marker date="1490664796600" expanded="false" signature="20641:20645" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="20666:20670" ph="&gt;" />
+            <marker date="1490664796600" expanded="false" signature="20674:20678" ph="&lt;" />
+            <marker date="1490664796600" expanded="false" signature="20682:20686" ph="&gt;" />
+            <marker date="1490664796600" expanded="true" signature="20904:21258" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="21338:21691" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="21733:22200" ph="{...}" />
+            <marker date="1490664796600" expanded="true" signature="22265:22540" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal3/angular-touch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <marker date="1490664796600" expanded="true" signature="7635:7673" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="18857:18928" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="19001:19122" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="20010:20081" ph="..." />
+            <marker date="1490664796600" expanded="true" signature="20154:20275" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal3/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal3/confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal2/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1429">
+          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-scope-communicate/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-scope-communicate/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-scope-communicate/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-modal/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+          <folding>
+            <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-scope-communicate/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
