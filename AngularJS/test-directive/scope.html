@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="../js/angular.js"></script>-->
+    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular.js"></script>
+    <script>
+        angular.module('directiveDemo', [])
+            .controller('MainController', function ($scope) {
+
+            })
+            .directive('myDirective', function () {
+                return {
+                    restrict: 'A',
+                    replace: true,
+                    scope:{
+                    },
+                    priority:0,
+                    template: '<div> Inside myDirective {{myDirective}}</div> '
+
+                }
+            })
+    </script>
+</head>
+<body >
+    <div ng-app="directiveDemo">
+        <div ng-controller="MainController">
+            Outside myDirective:{{myProperty}}
+            <div my-directive ng-init="myProperty= 'wow, this is cool'">
+                Inside myDirective:{{myProperty}}
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

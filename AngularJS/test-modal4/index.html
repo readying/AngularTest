@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="bootstrap.css" rel="stylesheet"/>
+    <link href="remodal.css"/>
+    <link href="remodal-default-theme.css"/>
+
+    <script src="angular.js"></script>
+    <SCRIPT SRC="angular-sanitize.js"></SCRIPT>
+    <script SRC="ui-bootstrap-tpls.js"></script>
+    <SCRIPT SRC="angular-touch.js"></SCRIPT>
+
+    <script src="remodal.min.js"></script>
+
+    <script>
+        var app = angular.module('ModalApp',['ui.bootstrap']);
+
+        app.controller('MainCtrl',function ($scope, $modal) {
+
+            $scope.test = function () {
+
+                var modalInstance = $modal.open({
+                    templateUrl:'confirm.html',
+                    controller:'ConfirmCtrl',
+                    size:'sm'
+                })
+            }
+        });
+
+        app.controller('ConfirmCtrl', function () {
+
+        })
+    </script>
+</head>
+<body ng-app="ModalApp" ng-controller="MainCtrl">
+
+    <button class="btn btn-primary" ng-click="test()" >Test</button>
+
+</body>
+</html>

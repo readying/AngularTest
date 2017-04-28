@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="treeDemo">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+    <link href="treeGrid.css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/angular.js/1.5.0/angular.js"></script>
+    <script src="tree-grid-directive.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+
+    <!--<get-tree tree-data ="rawTreeData"></get-tree>-->
+    <!--expand-on="expanding_property"-->
+    <tree-grid
+            tree-data="tree_data2"
+            col-defs="col_defs"
+
+            on-click="my_tree_handler(branch)"
+    ></tree-grid>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../js/angular.min.js"></script>
+    <script>
+        angular.module('formApp', [])
+            .controller('formController', function ($scope) {
+
+
+            })
+            .run(function ($rootScope, $timeout) {
+                $timeout(function () {
+                    $rootScope.myHref='http://www.baidu.com';
+                },2000);
+            });
+    </script>
+
+</head>
+<body ng-app="formApp" ng-controller="formController">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h2>Angular Checkbox and Radio Buttons</h2>
+
+        <label>Select Two Fish:</label>
+        <input type="checkbox"
+               ng-model="isTwoFish"><br/>
+        <select>
+            <option>One Fish</option>
+            <option ng-selected="isTwoFish">Two Fish</option>
+        </select>
+
+    </div>
+
+    <div class="col-3">
+
+        <a ng-href="{{myHref}}">I'm feeling lucky, when I load</a><br/>
+
+        <a href="{{myHref}}">I'm feeling 404</a>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

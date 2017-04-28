@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="directiveDemo">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="../js/angular.js"></script>-->
+    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular.js"></script>
+    <script>
+        angular.module('directiveDemo', [])
+            .directive('myDirective', function () {
+                return {
+                    restrict: 'A',
+                    replace: true,
+                    scope:{
+                        myUrl:'@',
+                        myLInkText:'@'
+                    },
+//                    template: '<a href="{{myUrl}}">{{myLinkText}} </a>'
+                    tempalte:'\
+                    <div>\
+                        <a href="www.baidu.com">Click me</a>\
+                        <h1>dsjl</h1>\
+                    </div>\
+                    '
+                }
+            })
+    </script>
+</head>
+<body >
+    <!--<my-directive></my-directive>-->
+
+<div my-directive>
+    <!--my-url="http://www.baidu.com"-->
+     <!--my-link-text ="Go to Baidu">-->
+
+</div>
+
+<h1 ng-init="greeting = 'helloWorld'">
+    The greeting is :{{greeting}}
+</h1>
+
+</body>
+</html>

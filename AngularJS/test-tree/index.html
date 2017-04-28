@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="treeDemo">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="../js/angular.js"></script>-->
+    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular.js"></script>
+    <!--<script src="Recursion.js"></script>-->
+    <script>
+        angular.module('treeDemo', [])
+            .controller('TreeController', function ($scope) {
+                $scope.folder = {
+                    name:'techs',
+                    children:[
+                        {
+                            name:'server-side',
+                            children:[
+                                {
+                                    name:'Java'
+                                },{
+                                name:'Python'
+                                },{
+                                name:'Node'
+                                }
+                            ]
+                        },
+                        {
+                            name: 'front-end',
+                            children: [
+                                {
+                                    name: 'jQuery'
+                                },
+                                {
+                                    name: 'Angular'
+                                },
+                                {
+                                    name: 'React'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            })
+            .directive("folderTree", function () {
+                return{
+                    restrict:"E",
+                    scope:{
+                        currentFolder:'='
+                    },
+                    templateUrl:'tree.html'
+//                    compile:function (element) {
+//                        return RecursionHelper.compile(element, function (scope, iElement, iAttrs, controller, transcludeFn) {
+//                            scope.variable = 'hello world';
+//                        });
+//                    }
+                };
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="TreeController">
+        <folder-tree current-folder="folder"></folder-tree>
+    </div>
+
+</body>
+</html>

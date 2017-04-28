@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyModule">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/angular.js/1.6.4/angular.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<div ng-controller="MyCtrl">
+    <!--<drink flavor="{{ctrlFlavor}}"></drink>-->
+
+    Ctrl:<br>
+    <input type="text" ng-model="ctrlFlavor">
+    <br>
+    Directive:
+    <br>
+    <drink2 flavor="ctrlFlavor"></drink2>
+</div>
+
+
+</body>
+</html>
