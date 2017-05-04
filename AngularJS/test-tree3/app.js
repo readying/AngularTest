@@ -139,7 +139,7 @@ app.controller('mainCtrl', function ($scope, $http) {
 
     $scope.ha = {};
     $http({
-        url:"http://192.168.5.183:9090/ma/department/90b5e399-1419-11e7-8bf3-5863ea6b5879/tree",
+        url:"http://192.168.5.183:9091/ma/department/90b5e399-1419-11e7-8bf3-5863ea6b5879/tree",
         method:'GET'
     }).success(function (data) {
         $scope.ha = data.data;

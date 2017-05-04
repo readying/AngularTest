@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="039370b2-ece5-4bca-a712-d2487f00f7c1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-tree4/angular-ui-tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-tree4/angular-ui-tree.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-tree2/ccf-original.json" afterPath="$PROJECT_DIR$/test-tree2/ccf-original.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-tree3/app.js" afterPath="$PROJECT_DIR$/test-tree3/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-tree3/index.html" afterPath="$PROJECT_DIR$/test-tree3/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,13 +29,67 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-tree3/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+            <state relative-caret-position="693">
+              <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
                 <element signature="e#184#1026#0" expanded="false" />
                 <element signature="e#1050#2956#0" expanded="false" />
                 <element signature="e#2992#5099#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-tree4/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-tree2/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4092">
+              <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-ui-tree.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-tree4/angular-ui-tree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="789">
+              <caret line="1407" column="0" lean-forward="false" selection-start-line="1407" selection-start-column="0" selection-end-line="1407" selection-end-column="0" />
+              <folding>
+                <element signature="e#21555#62532#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-ui-tree.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-tree4/angular-ui-tree.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-tree4/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+              <folding>
+                <marker date="1493797234937" expanded="true" signature="814:920" ph="{&quot;glyphicon-chevron-right&quot;: collapsed...}" />
               </folding>
             </state>
           </provider>
@@ -53,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-tree3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="363">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -66,8 +120,8 @@
       <file leaf-file-name="tree-grid-directive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-tree3/tree-grid-directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="592" column="43" lean-forward="true" selection-start-line="592" selection-start-column="43" selection-end-line="592" selection-end-column="43" />
+            <state relative-caret-position="17688">
+              <caret line="592" column="43" lean-forward="false" selection-start-line="592" selection-start-column="43" selection-end-line="592" selection-end-column="43" />
               <folding>
                 <element signature="e#165#2927#0" expanded="false" />
                 <element signature="e#3062#4166#0" expanded="false" />
@@ -122,9 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-validate/error.html" />
-        <option value="$PROJECT_DIR$/test-bootstrap/has-error.html" />
-        <option value="$PROJECT_DIR$/test-validate2/app.js" />
         <option value="$PROJECT_DIR$/test-validate/template.html" />
         <option value="$PROJECT_DIR$/test-validate2/emailmessages.html" />
         <option value="$PROJECT_DIR$/test-validate2/index.html" />
@@ -171,8 +222,11 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test.json" />
         <option value="$PROJECT_DIR$/test-tree2/ccf-original.json" />
-        <option value="$PROJECT_DIR$/test-tree3/app.js" />
         <option value="$PROJECT_DIR$/test-tree3/index.html" />
+        <option value="$PROJECT_DIR$/test-tree3/app.js" />
+        <option value="$PROJECT_DIR$/test-tree4/index.html" />
+        <option value="$PROJECT_DIR$/test-tree4/app.js" />
+        <option value="$PROJECT_DIR$/test-tree4/angular-ui-tree.js" />
       </list>
     </option>
   </component>
@@ -194,10 +248,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1929" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -215,6 +269,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,14 +293,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test-tree3" />
+              <option name="myItemId" value="test-tree4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,25 +309,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="E:/tesGgit/tree-grid-directive" />
+    <property name="last_opened_file_path" value="E:/gitlab/IM-FrontEnd/mstp_111_angulr" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/git/AngularTest/AngularJS/test.html" />
     <property name="javascript.nodejs.core.library.configured.version" value="4.4.3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\git\AngularTest\AngularJS\test-tree3" />
-      <recent name="E:\git\AngularTest\AngularJS\test-tree2" />
-      <recent name="E:\git\AngularTest\AngularJS\" />
-      <recent name="E:\git\AngularTest\AngularJS\test-directive" />
-      <recent name="E:\git\AngularTest\AngularJS\test-form" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\git\AngularTest\AngularJS\test-modal4" />
       <recent name="E:\git\AngularTest\AngularJS\js" />
       <recent name="E:\git\AngularTest\AngularJS\test-ngModel-twoWay" />
       <recent name="E:\git\AngularTest\AngularJS\test-scope-communicate" />
       <recent name="E:\git\AngularTest\AngularJS\vendor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\AngularTest\AngularJS\test-tree4" />
+      <recent name="E:\git\AngularTest\AngularJS" />
+      <recent name="E:\git\AngularTest\AngularJS\test-tree3" />
+      <recent name="E:\git\AngularTest\AngularJS\test-tree2" />
+      <recent name="E:\git\AngularTest\AngularJS\" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,7 +458,10 @@
       <workItem from="1493278590841" duration="610000" />
       <workItem from="1493279493595" duration="522000" />
       <workItem from="1493280030185" duration="22897000" />
-      <workItem from="1493686581668" duration="6312000" />
+      <workItem from="1493686581668" duration="10750000" />
+      <workItem from="1493795893244" duration="3376000" />
+      <workItem from="1493858282492" duration="790000" />
+      <workItem from="1493885743814" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="增加模态化测试">
       <created>1491034474406</created>
@@ -448,11 +505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493361359284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="实现从后台读取组织数据，并进行前端展示">
+      <created>1493705543132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1493705543132</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224474000" />
+    <option name="totallyTimeSpent" value="233124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,10 +528,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1929" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20824525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20824525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49788582" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5021142" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -483,7 +546,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="850" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -526,7 +589,8 @@
     <MESSAGE value="主要增加的是表格校验" />
     <MESSAGE value="增加modal  controller之间的通信" />
     <MESSAGE value="directive/Tree test" />
-    <option name="LAST_COMMIT_MESSAGE" value="directive/Tree test" />
+    <MESSAGE value="实现从后台读取组织数据，并进行前端展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现从后台读取组织数据，并进行前端展示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,34 +599,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-modal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-modal/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-modal2/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-modal2/confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-modal3/ui-bootstrap-tpls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -818,13 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-tree2/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="115" column="101" lean-forward="true" selection-start-line="115" selection-start-column="101" selection-end-line="115" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -841,14 +870,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-tree3/tree-grid-directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="592" column="43" lean-forward="true" selection-start-line="592" selection-start-column="43" selection-end-line="592" selection-end-column="43" />
+        <state relative-caret-position="17688">
+          <caret line="592" column="43" lean-forward="false" selection-start-line="592" selection-start-column="43" selection-end-line="592" selection-end-column="43" />
           <folding>
             <element signature="e#165#2927#0" expanded="false" />
             <element signature="e#3062#4166#0" expanded="false" />
             <element signature="e#36591#36974#0" expanded="false" />
             <element signature="e#37018#40513#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-tree2/ccf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-tree3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-tree3/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+            <element signature="e#184#1026#0" expanded="false" />
+            <element signature="e#1050#2956#0" expanded="false" />
+            <element signature="e#2992#5099#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-tree4/angular-ui-tree.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -862,32 +927,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-tree2/ccf.json">
+    <entry file="file://$PROJECT_DIR$/test-tree2/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="4092">
+          <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-tree3/app.js">
+    <entry file="file://$PROJECT_DIR$/test-tree4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+        <state relative-caret-position="1254">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
-            <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#184#1026#0" expanded="false" />
-            <element signature="e#1050#2956#0" expanded="false" />
-            <element signature="e#2992#5099#0" expanded="false" />
+            <marker date="1493797234937" expanded="true" signature="814:920" ph="{&quot;glyphicon-chevron-right&quot;: collapsed...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-tree3/index.html">
+    <entry file="file://$PROJECT_DIR$/test-tree4/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="198">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-tree4/angular-ui-tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="1407" column="0" lean-forward="false" selection-start-line="1407" selection-start-column="0" selection-end-line="1407" selection-end-column="0" />
+          <folding>
+            <element signature="e#21555#62532#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
