@@ -1,0 +1,54 @@
+{
+  "id": "90b5e399-1419-11e7-8bf3-5863ea6b5879",
+  "nodeName": "航天长峰",
+  "children": [
+    {
+      "id": "1",
+      "nodeName": "研发部",
+      "children": [
+        {
+          "id": "50971fae-141a-11e7-8bf3-5863ea6b5879",
+          "nodeName": "指挥云组",
+          "children": [
+            {
+              "id": "a07a2957-0812-11e7-befe-7c6896b5c9d2",
+              "nodeName": "Lion士大夫asdf"
+            },
+            {
+              "id": "b3d360ba-0812-11e7-befe-7c6896b5c9d2",
+              "nodeName": "Adazhangboa"
+            }
+          ]
+        },
+        {
+          "id": "576c5e58-141a-11e7-8bf3-5863ea6b5879",
+          "nodeName": "视频大数据",
+          "children": [
+            {
+              "id": "c5449c88-0812-11e7-befe-7c6896b5c9d2",
+              "nodeName": "Sherry"
+            },
+            {
+              "id": "643895b1-09e2-11e7-9114-c51f4c21be57",
+              "nodeName": "adminUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "49afd075-141a-11e7-8bf3-5863ea6b5879",
+      "nodeName": "人事部",
+      "children": [
+        {
+          "id": "54062387-141a-11e7-8bf3-5863ea6b5879",
+          "nodeName": "人事组"
+        }
+      ]
+    },
+    {
+      "id": "4d850cb7-141a-11e7-8bf3-5863ea6b5879",
+      "nodeName": "市场部"
+    }
+  ]
+}
