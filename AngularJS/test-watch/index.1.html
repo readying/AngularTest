@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/angular.js"></script>
+</head>
+
+<body>
+    <div ng-controller="AppController as appController">
+        <p>
+            <a ng-click="appController.incrementFoo()">increment Foo</a> {{appController.fooCount}}
+        </p>
+    </div>
+
+    <script>
+        angular.module('app', [])
+            .controller('AppController', function($scope, $rootScope) {
+
+                var vm = this;
+                vm.fooCount = 0;
+
+                $scope.$watch("vm.fooCount", function handleFooChange(newValue, oldValue) {
+                    console.log('vm.fooCount: ', newValue);
+                })
+                $scope.$watch("appController.fooCount", function handleFooChange(newValue, oldValue) {
+                    console.log('vm.fooCount: ', newValue);
+                })
+                $scope.$watch(function(scope) {
+                    return vm.fooCount;
+                }, function handleFooChange(newValue, oldValue) {
+                    console.log('vm.fooCount: ', newValue);
+                })
+
+                vm.incrementFoo = incrementFoo;
+
+                function incrementFoo() {
+                    console.log('-----> ', ++vm.fooCount, '<------');
+                }
+            })
+    </script>
+</body>
+
+</html>

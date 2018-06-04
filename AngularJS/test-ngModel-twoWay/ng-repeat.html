@@ -1,32 +1,49 @@
-
-
- <!--总结下来就是, ng-if, ng-switch, ng-include等会动态创建一块界面的东西，都是自带以及作用域-->
+<!--总结下来就是, ng-if, ng-switch, ng-include等会动态创建一块界面的东西，都是自带以及作用域-->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="../js/angular.min.js"></script>
     <script>
-         angular.module('myApp',[])
-             .controller('myCtrl',function ($scope) {
-                 $scope.name = [
-                     {name:"Jani", country:"Norway"},
-                     {name:'Hege', country:'Sweden'},
-                     {name:'Kai',  country:'Denmark'}
-                 ]
-             })
+        angular.module('myApp', [])
+            .controller('myCtrl', function($scope, $rootScope) {
+                $scope.name = [{
+                    name: "Jani",
+                    country: "Norway"
+                }, {
+                    name: 'Hege',
+                    country: 'Sweden'
+                }, {
+                    name: 'Kai',
+                    country: 'Denmark'
+                }];
+
+                $rootScope.user = {};
+                $rootScope.user.ok = '';
+                $rootScope.user.picture = 'http://192.168.6.74:4869/d774249b108755c51d029ecb0a138c8f';
+
+                $scope.change = function() {
+                    $rootScope.user.picture = 'http://192.168.6.74:4869/ef10b780c7466528f8b512dc3f325ae7';
+                }
+            })
     </script>
 </head>
+
 <body>
     <div ng-app="myApp" ng-controller="myCtrl">
-       <h2>repeat this object </h2>
+        <h2>repeat this object </h2>
         <ul>
             <li ng-repeat="item in name">
                 {{item.name + ',' + item.country}}
             </li>
         </ul>
+
+        <img ng-src="{{user.picture}}">
+        <button ng-click="change()">Click</button>
     </div>
 </body>
+
 </html>
